@@ -1,0 +1,3 @@
+all:
+	go get -t -v ./...
+	go build -o munin_exporter munin_exporter.go
